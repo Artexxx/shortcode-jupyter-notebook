@@ -1,3 +1,3 @@
-module github.com/Artexxx/cmpt-graph-view
+module github.com/Artexxx/shortcode-jupyter-notebook
 
 go 1.20

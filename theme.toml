@@ -3,7 +3,7 @@
 
 name = 'shortcode-jupyter-notebook'
 license = 'MIT'
-licenselink = 'https://github.com/Artexxx/cmpt-graph-view/LICENSE'
+licenselink = 'https://github.com/Artexxx/shortcode-jupyter-notebook/LICENSE'
 description = '🔖Jupyter Notebook (.ipynb) preview shortcode'
 min_version = "0.146.0"
 
