@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = 'shortcode-jupyter-notebook'
+license = 'MIT'
+licenselink = 'https://github.com/Artexxx/cmpt-graph-view/LICENSE'
+description = '🔖Jupyter Notebook (.ipynb) preview shortcode'
+min_version = "0.146.0"
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/Artexxx/shortcode-jupyter-notebook'
+
+demosite = 'https://artexxx.github.io/'
+
+# Taxonomy terms
+tags = ['shortcodes']
+features = ['fixit-docs']
+
+[author]
+name = 'Artexxx'
+homepage = 'https://artexxx.github.io/'

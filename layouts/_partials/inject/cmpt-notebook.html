@@ -1,0 +1,13 @@
+{{- /*
+Notebook component assets
+Adds stylesheet for the `notebook` shortcode.
+*/ -}}
+{{- if and .IsPage (.HasShortcode "notebook") -}}
+    {{- $scss := resources.Get "css/notebook.scss"  -}}
+    {{- $cssOpts := dict "targetPath" "css/notebook.min.css" "minify" hugo.IsProduction -}}
+    {{- if not hugo.IsProduction -}}
+        {{- $cssOpts = dict "sourceMap" "inline" | merge $cssOpts -}}
+    {{- end -}}
+    {{- $css := $scss | css.Sass $cssOpts | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- end -}}
